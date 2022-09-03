@@ -1,0 +1,2 @@
+use('natours');
+db.tours.find( {ratingsAverage : {$gte : 5}});

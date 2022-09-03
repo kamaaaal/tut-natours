@@ -1,0 +1,6 @@
+use('natours');
+db.tours.aggregate([
+    {
+    $unwind : '$startDates'
+    }
+])

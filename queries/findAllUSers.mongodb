@@ -1,0 +1,3 @@
+use('natours');
+
+db.users.find({})
